@@ -7,11 +7,13 @@ fullcalendar x datepicker x dataTables
 According to user's device changes the view
 
 User with PC
+
 show the ui of fullcalendar
 
 <img src="https://github.com/etinufo168/calendar/blob/master/images/cal_PC.PNG">
 
 User without PC
+
 show the other view
 using datepicker & dataTables
 
