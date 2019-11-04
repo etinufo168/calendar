@@ -16,3 +16,6 @@ show the other view
 using datepicker & dataTables
 
 <img src="https://github.com/etinufo168/calendar/blob/master/images/cal_phone.PNG">
+
+# Demo Link
+https://etinufo168.github.io/calendar/
