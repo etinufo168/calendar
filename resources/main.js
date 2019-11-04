@@ -352,7 +352,7 @@ else{ //use phone
 	function setData(day){
 		for(var i=0;i<=2;i++){
 			data.push({
-				"醫師姓名": "多拉A夢",
+				//"醫師姓名": "多拉A夢",
 				"預約時間": day,
 				"預約病患姓名": "大熊",
 				"預約內容": "OD"
@@ -386,7 +386,7 @@ else{ //use phone
 				return "<label class='pos-rel'><input type='checkbox' name='check' value='" + oObj +
 						"' class='ace' id=\"" + oObj + "\" /><span class='lbl'></span></label>"},
 					"sWidth":"0%", "bSortable":false, "sDefaultContent": '' }, */
-				{ "mDataProp": "醫師姓名", "sDefaultContent": '' },	//醫師姓名
+				//{ "mDataProp": "醫師姓名", "sDefaultContent": '' },	//醫師姓名
 				{ "mDataProp": "預約時間", "sDefaultContent": '' },	//預約時間
 				{ "mDataProp": "預約病患姓名", "sDefaultContent": '' },	//預約病患姓名
 				{ "mDataProp": "預約內容", "sDefaultContent": '' }	//預約內容
