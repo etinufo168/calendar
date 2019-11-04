@@ -6,14 +6,12 @@ fullcalendar x datepicker x dataTables
 # Two diffenernt styles of calendar
 According to user's device changes the view
 
-User with PC
-
+# User with PC
 show the ui of fullcalendar
 
 <img src="https://github.com/etinufo168/calendar/blob/master/images/cal_PC.PNG">
 
-User without PC
-
+# User without PC
 show the other view
 using datepicker & dataTables
 
