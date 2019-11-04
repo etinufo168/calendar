@@ -1,0 +1,7 @@
+/* === ie9 modes === */
+.visible-ie9 {
+	display: inherit !important;
+}
+.hidden-ie9 {
+	display: none !important;
+}

@@ -1,0 +1,37 @@
+/* === ie8 modes === */
+.visible-ie8 {
+	display: inherit !important;
+}
+.hidden-ie8 {
+	display: none !important;
+}
+/* ie 8 fixes
+================================================== */
+.knobify {
+	display: none;
+}
+.circle-stat .details .title {
+	margin-top: 5px !important;
+}
+.circle-stat .details {
+	padding-top: 0px !important;
+	margin-bottom: 5px !important;
+}
+.icon-btn:hover {
+	filter: none !important;
+}
+.breadcrumb > li {
+	display: inline;
+ *display: inline;
+}
+.btn-group.btn-inline {
+	display: inline;
+}
+.navbar {
+	height: 40px;
+}
+.navbar-nav > li > a {
+	padding-top: 13px !important;
+	padding-bottom: 13px !important;
+	line-height: 1em !important;
+}

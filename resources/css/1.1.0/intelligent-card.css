@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* === custom off-canvas card tabs === */
+.card-tabs.tabbable .nav-tabs > li > a {
+	border-top: 3px solid #f9f9f9;
+	background: #f9f9f9;
+}
+.card-tabs.tabbable .nav-tabs > li.active > a, .card-tabs.tabbable .nav-tabs > li.active > a:hover {
+	background-color: #efefef;
+}
+/* === intelligent card === */
+#pane-wrapper {
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 100%;
+	height: 100%;
+	z-index: 99;
+	transition-duration: .5s;
+	transition-property: all;
+}
+.pane-control {
+	width: 50px;
+	display: none;
+	float: left;
+	height: 100%;
+	left: 0;
+	padding-top: 40px;
+	position: absolute;
+}
+#pane-wrapper.show-fullscreen .pane-control {
+	display: block;
+}
+.pane-parent, .pane-top, .pane-close {
+	color: #bdbdbd;
+	font-size: 30px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	display: block;
+	text-align: center;
+}
+.pane-parent:hover, .pane-top:hover {
+	color: #ffffff;
+}
+.close-card, .close-panel {
+	position: absolute;
+	right: 10px;
+	top: 44px;
+}
+#pane-wrapper.show-fullscreen #pane-wrapper .pane-close {
+	display: none;
+}
+#pageslide {
+	width: 300px;
+	padding: 30px 10px 10px;
+	background-color: #efefef;
+	-webkit-box-shadow: inset 5px 0 5px -5px rgba(0,0,0,.25);
+	-moz-shadow: inset 5px 0 5px -5px rgba(0,0,0,.25);
+	box-shadow: inset 5px 0 5px -5px rgba(0,0,0,.25);
+	overflow: hidden;
+	position: absolute;
+	right: -300px;
+	height: 100%;
+	color: #525252;
+}
+#pane-wrapper.show-fullscreen #pageslide {
+	left: 40px;
+	display: block;
+	-webkit-box-shadow: inset -5px 0 5px -5px rgba(0,0,0,.25);
+	-moz-shadow: inset -5px 0 5px -5px rgba(0,0,0,.25);
+	box-shadow: inset -5px 0 5px -5px rgba(0,0,0,.25);
+}
+#pageslide.show {
+	left: 40px;
+	display: block;
+	-webkit-box-shadow: inset -5px 0 5px -5px rgba(0,0,0,.25);
+	-moz-shadow: inset -5px 0 5px -5px rgba(0,0,0,.25);
+	box-shadow: inset -5px 0 5px -5px rgba(0,0,0,.25);
+}
+#pane-container {
+	height: 800px;
+	overflow: hidden;
+	overflow-y: auto;
+}
+#pane-container img {
+	display: block;
+	max-width: 100%;
+	height: auto !important;
+	margin-bottom: 8px;
+}
+#pageinner {
+	padding: 30px 15px;
+	background-color: #ffffff;
+	height: 100%;
+	position: absolute;
+	left: 340px;
+	width: auto;
+}
+#pageinner img {
+	display: block;
+	max-width: 100%;
+	height: auto !important;
+	margin-bottom: 16px;
+}
+#pane-wrapper.show-fullscreen .close-card {
+	display: none;
+}

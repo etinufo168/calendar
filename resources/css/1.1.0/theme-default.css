@@ -1,0 +1,167 @@
+/*   
+Default theme
+*/
+
+/* reset and overrides
+================================================== */
+body {
+	color: #222222;
+	background-color: #35363a;
+}
+/* page sidebar
+================================================== */
+.page-sidebar {
+	background: #35363a;
+}
+a.search-trigger {
+	background-color: #151515;
+}
+.page-sidebar-closed .search-form-sidebar {
+	background-color: #252525;
+}
+ul.page-sidebar-menu > li > a {
+	border-top: 1px solid #414247;
+	border-bottom: 1px solid #292a2d;
+	color: #ffffff;
+}
+ul.page-sidebar-menu > li:last-child > a {
+	border-bottom: 1px solid transparent;
+}
+ul.page-sidebar-menu > li a i, a.search-trigger i {
+	color: #999ba2;
+}
+ul.page-sidebar-menu > li.open > a, ul.page-sidebar-menu > li > a:hover, ul.page-sidebar-menu > li:hover > a{
+	background: #252525;
+	color: #1ac6ff;
+	border-bottom: 1px solid transparent;
+}
+ul.page-sidebar-menu > li a:hover i, a.search-trigger:hover i {
+	color: #1ac6ff;
+}
+ul.page-sidebar-menu > li.active > a {
+	color: #ffffff;
+	font-weight: bold;
+	background: #0093c4 !important;
+	border-top: 1px solid transparent !important;
+	border-bottom: 1px solid transparent !important;
+}
+ul.page-sidebar-menu > li.active > a i {
+	color: #ffffff;
+}
+ul.page-sidebar-menu > li.active > ul.sub-menu {
+	border-right: 8px solid #0093c4;
+}
+ul.page-sidebar-menu > li.open > a i {
+	color: #2ea2cc;
+}
+ul.page-sidebar-menu > li.active > a i {
+	color: #ffffff;
+}
+ul.page-sidebar-menu > li.open > ul.sub-menu {
+	background: #252525 !important;
+}
+ul.page-sidebar-menu > li.active > ul.sub-menu {
+	background: #252525 !important;
+}
+ul.page-sidebar-menu > li.active > ul.sub-menu a {
+	color: #cdcdcd;
+}
+ul.page-sidebar-menu > li > ul.sub-menu > li:first-child > a {
+	border-top: 0px !important;
+}
+ul.page-sidebar-menu > li > ul.sub-menu > li.active > a, ul.page-sidebar-menu > li > ul.sub-menu > li > a:hover {
+	color: #ffffff !important;
+	font-weight: bold;
+	background: #151515 !important;
+}
+ul.page-sidebar-menu > li > ul.sub-menu > li > a:hover {
+	background: #151515 !important;
+}
+/* === 3rd level sub menu === */
+ul.page-sidebar-menu > li > ul.sub-menu li > ul.sub-menu > li.active > a, ul.page-sidebar-menu > li > ul.sub-menu li.open > a {
+	color: #ffffff !important;
+	background: #151515 !important;
+}
+ul.page-sidebar-menu > li > ul.sub-menu li > ul.sub-menu > li > a:hover {
+	color: #ffffff !important;
+	background: #151515 !important;
+}
+/* === font color for all sub menu links === */
+ul.page-sidebar-menu li > ul.sub-menu > li > a {
+	color: #cdcdcd;
+}
+/* === menu arrows === */
+ul.page-sidebar-menu > li > a .arrow:before, ul.page-sidebar-menu > li > a .arrow.open:before {
+	color: #8c8e96 !important;
+}
+ul.page-sidebar-menu > li > a:hover .arrow:before, ul.page-sidebar-menu > li > a:hover .arrow.open:before, ul.page-sidebar-menu > li.open > a .arrow:before, ul.page-sidebar-menu > li.open > a .arrow.open:before {
+	color: #1ac6ff !important;
+}
+ul.page-sidebar-menu > li > ul.sub-menu a .arrow:before, ul.page-sidebar-menu > li > ul.sub-menu a .arrow.open:before {
+	color: #999ba2 !important;
+}
+ul.page-sidebar-menu > li > ul.sub-menu a:hover .arrow:before, ul.page-sidebar-menu > li > ul.sub-menu a:hover .arrow.open:before {
+	color: #fff !important;
+}
+ul.page-sidebar-menu > li > a > .arrow.open:before {
+	color: #cdcdcd !important;
+}
+ul.page-sidebar-menu > li.active > a .arrow:before, ul.page-sidebar-menu > li.active > a .arrow.open:before {
+	color: #ffffff !important;
+}
+/* === sub menu bg color on hover menu item === */
+.page-sidebar-closed ul.page-sidebar-menu > li:hover .sub-menu {
+	background-color: #252525;
+}
+.sidebar-toggler-wrapper {
+	border-top: 1px solid #414247;
+}
+/* === tabs & pills === */
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+	border-top: 3px solid #0093c4;
+}
+.tabs-below > .nav-tabs > .active > a, .tabs-below > .nav-tabs > .active > a:hover, .tabs-below > .nav-tabs > .active > a:focus {
+	border-bottom: 3px solid #0093c4;
+}
+.tabs-left > .nav-tabs .active > a, .tabs-left > .nav-tabs .active > a:hover, .tabs-left > .nav-tabs .active > a:focus {
+	border-left: 3px solid #0093c4;
+}
+.tabs-right > .nav-tabs .active > a, .tabs-right > .nav-tabs .active > a:hover, .tabs-right > .nav-tabs .active > a:focus {
+	border-right: 3px solid #0093c4;
+}
+.sidebar-tabs.tabbable .nav-tabs > li.active > a, .sidebar-tabs.tabbable .nav-tabs > li.active > a:hover {
+	border-top: 3px solid #0093c4;
+}
+.card-tabs.tabbable .nav-tabs > li.active > a, .card-tabs.tabbable .nav-tabs > li.active > a:hover {
+	border-top: 3px solid #0093c4;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+	background-color: #0093c4;
+}
+/* === portlet title === */
+.portlet > .portlet-title {
+	background-color: #d9f0ef;
+}
+.portlet.no-border > .portlet-title > .tools > a {
+	color: #898989;
+}
+/* === data table  === */
+.table thead tr th, .table tbody tr th {
+	background-color: #eafeff !important;
+}
+.table tbody tr:nth-child(even) {
+	background-color:#f4f4f4 !important;
+}
+.table tbody tr.active td, .table tbody tr.active th {
+	background-color: #aaeaff !important;
+}
+.table tbody tr.active:hover td, .table tbody tr.active:hover th {
+	background-color: #bdefff !important;
+}
+/* === navbar === */
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+	background-color: #0093c4 !important;
+	color: #ffffff;
+}

@@ -1,0 +1,67 @@
+/* === scrollbar  === */
+.scroller {
+	padding: 0px;
+	margin: 0px;
+	padding-right: 12px;
+	overflow: hidden;
+}
+.scroller-footer {
+	margin-top: 10px;
+}
+.scroller-footer:after, .scroller-footer:before {
+	content: "";
+	display: table;
+	line-height: 0;
+}
+.scroller-footer:after {
+	clear: both;
+}
+.portlet-body .slimScrollBar {
+	margin-right: 0px;
+}
+/* === data table  === */
+.dataTables_paginate {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+/* === datepicker  === */
+.datepicker.dropdown-menu {
+	padding: 5px;
+}
+.datepicker .selected {
+	background-color: #909090 !important;
+	background-image: none !important;
+	filter: none !important;
+}
+.datepicker .active {
+	background-color: #4b8df8 !important;
+	background-image: none !important;
+	filter: none !important;
+}
+.datepicker .active:hover {
+	background-color: #2678FC !important;
+	background-image: none !important;
+	filter: none !important;
+}
+.datepicker .input-daterange .form-control {
+	text-align: left;
+}
+.modal-open .datepicker {
+	z-index: 10055 !important;
+}
+.datepicker table td {
+	font-weight: 300 !important;
+	border-radius: none!important;
+}
+.datepicker table th {
+	font-weight: 400 !important;
+	border-radius: none!important;
+}
+/* === modal  === */
+.modal-open.page-overflow .page-container, .modal-open.page-overflow .page-container .navbar-fixed-top, .modal-open.page-overflow .page-container .navbar-fixed-bottom, .modal-open.page-overflow .modal-scrollable {
+	overflow-y: auto !important;
+}
+.modal-scrollable {
+	overflow: hidden !important;
+}
