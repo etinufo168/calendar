@@ -1,0 +1,44 @@
+/* holiday color */
+.fc-sat,.fc-sun{
+	/* background-color: #FF3333;
+	color: #FFFFFF; */
+	color: #FF3333;
+}
+/* font color */
+.fc-event, .fc-event-dot {
+    background-color: #3788d8;
+	/* color: #DDDDDD; */
+}
+.fc-event:hover {
+    color: #DDDDDD;
+}
+.fc-event, .fc-event:hover { /*all font */
+    
+}
+/* a:not([href]):not([tabindex]) {
+    color: inherit;
+} */
+.fc-bootstrap a.fc-event:not([href]):not([tabindex]) {
+    color: #FF44AA;
+}
+/* button color */
+.fc-button-primary { /* 非選取 */
+    color: #fff;
+    background-color: #593196;
+    border-color: #593196;
+}
+.fc-button-primary:not(:disabled).fc-button-active { /* 選取 */
+    color: #fff;
+    background-color: #422470;
+    border-color: #3c2166;
+}
+.fc-button:hover { /* 按鈕 hover */
+	color: #422470;
+	background-color: #fff;
+	border-color: #1a252f; 
+}
+.fc-button-primary:disabled { /* 今天 */
+    color: #fff;
+    background-color: #593196;
+    border-color: #593196;
+}
